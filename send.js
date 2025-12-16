@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "No content provided" });
   }
 
-  const webhookURL = "https://discord.com/api/webhooks/ID/TOKEN";
+  const webhookURL = "https://discord.com/api/webhooks/1450474160961749032/PltKT95wh6WIAGQryoWQt0J3qTxliephjkol8c3wkSaEgfXBMriSxY6BLA9-ufpHTbx0";
 
   try {
     const response = await fetch(webhookURL, {
